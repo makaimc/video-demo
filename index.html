@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Twilio Video demo!</title>
+    <link rel="stylesheet" href="https://media.twiliocdn.com/sdk/quickstart/rtc-conversations-quickstart.min.css">
+  </head>
+  <body>
+    <div id="remote-media"></div>
+    <div id="controls">
+      <div id="preview">
+        <p class="instructions">My camera!</p>
+        <div id="local-media"></div>
+        <button id="button-preview">Preview camera</button>
+      </div>
+      <div id="invite-controls" style="display: block;">
+        <p class="instructions">Invite an endpoint</p>
+        <input id="invite-to" type="text" placeholder="Endpoint name" />
+        <button id="button-invite">Send invite</button>
+      </div>
+    </div>
+
+    <script src="https://media.twiliocdn.com/sdk/rtc/js/v0.8/twilio-rtc-conversations.min.js"></script>
+    <script src="demo.js"></script>
+  </body>
+</html>
